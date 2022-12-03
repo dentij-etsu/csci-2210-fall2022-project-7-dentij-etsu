@@ -67,7 +67,7 @@ namespace csci_2210_fall2022_project_7_dentij_etsu
         /// <summary>
         /// Takes user input string and passes it to a dispatch table to run the appropriate calculation
         /// </summary>
-        /// <param name="str"> User Option </param>
+        /// <param name="str"> User Input String corresponding to menu option </param>
         public void ProcessMenuOption(string str)
         {
             if (menuActions.ContainsKey(str))
